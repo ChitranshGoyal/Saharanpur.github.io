@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: absolute;
+}
+.logo {
+  width: 120px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navlinks {
+  font-size: 20px;
+}
+.navlinks ul {
+  list-style: none;
+  display: inline-flex;
+}
+.navlinks ul li {
+  width: 120px;
+  margin: 100px;
+}
+.navlinks a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  transition: 2s;
+}
+.navlinks a:hover {
+  color: mediumvioletred;
+}
+.headings {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+  margin-top: 10%;
+}
+.headings:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: rgb(0, 0, 0);
+}
+
+.images {
+  float: left;
+  width: 600px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+.text p {
+  float: right;
+  margin-right: 100px;
+  font-size: 30px;
+  color: snow;
+  text-align: center;
+  margin-top: -300px;
+}
+.MainPage {
+  margin-top: 10%;
+  text-shadow: #fff 1px 1px;
+}
+.MainPage h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: 10%;
+  text-align: center;
+  text-shadow: #fff 1px 1px;
+}
+.MainPage p {
+  text-align: center;
+}
+.history {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.his1 h1 {
+  margin-top: 50%;
+  font-size: 60px;
+  font-family: "cascadia code", Consolas, "Courier New", Monospace;
+  color: black;
+}
+.his1 p {
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: 20px;
+  color: darkslateblue;
+  margin-bottom: 30%;
+}
+.his2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.his2 h1 {
+  font-size: 60px;
+  font-family: "cascadia code", Consolas, "Courier New", Monospace;
+  color: black;
+  margin-top: 30px;
+}
+.his2 p {
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: 20px;
+  color: darkslateblue;
+  margin-bottom: 30%;
+}
+.his3 h1 {
+  font-size: 60px;
+  font-family: "cascadia code", Consolas, "Courier New", Monospace;
+  color: black;
+  margin-top: 30px;
+}
+.his3 p {
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: 20px;
+  color: darkslateblue;
+  margin-bottom: 30%;
+}
+.ImageWoodArt {
+  width: 25%;
+  margin-top: 40%;
+  margin-bottom: 10%;
+  margin-left: 60px;
+  border-radius: 40px;
+}
+.right {
+  margin-left: 40%;
+  margin-top: -30%;
+  margin-right: 30px;
+  top: 10px;
+}
+.right h2 {
+  margin-top: 10px;
+}
+.right h1 {
+  font-size: 90px;
+}
+.space {
+  color: white;
+}
+.r {
+  margin-top: 10%;
+  margin-right: 35%;
+  margin-left: 30px;
+  top: 10px;
+  margin-bottom: 60px;
+}
+.r h1 {
+  font-size: 90px;
+}
+.r h2 {
+  margin-top: 10px;
+}
+.ImageAgro {
+  width: 25%;
+  margin-top: -20%;
+  border-radius: 40px;
+  margin-left: 70%;
+  margin-bottom: 60px;
+}
+.location {
+  margin-top: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 60px;
+}
+.texting p {
+  margin-top: 50px;
+  color: #000;
+  text-align: center;
+  top: 10px;
+  margin-bottom: 10%;
+}
+.texting {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.le {
+  margin-bottom: 30px;
+}
